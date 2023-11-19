@@ -1,10 +1,10 @@
 import React from 'react'
 import Banner from './features/banner'
+import Tags from './features/tags'
 import WhoAreYou from './features/whoAreYou'
 import Company from './features/company'
-import Quick from './features/quick'
 import OurClient from './features/ourClient'
-import Tags from './features/tags'
+import Quick from './features/quick'
 
 const Home = () => {
     return (
