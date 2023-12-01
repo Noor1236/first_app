@@ -651,6 +651,7 @@ hr {
     width: 70px;
     height: 70px;
     flex-shrink: 0;
+    border-radius: 50%;
     /* object-fit: contain; */
 }
 
@@ -683,12 +684,16 @@ hr {
     margin-right: 50px;
 }
 
-.date img {
-    /* margin-left: 8px; */
+/* .date img {
+    margin-left: 8px;
     width: 26.057px;
     height: 26.057px;
     flex-shrink: 0;
 
+} */
+
+.gold-star {
+    color: gold;
 }
 
 .review p {

@@ -1,6 +1,6 @@
 import React from 'react'
 import ServiceCard from '../../../global/components/serviceCard'
-import { serviceData } from '../../../global/layout/utils/data'
+import { serviceData } from '../../../global/utils/data'
 
 
 function Service() {

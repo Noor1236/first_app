@@ -1,5 +1,6 @@
 import React from 'react'
-import CallIcon from '../../../assets/images/icons/phone-removebg-preview.png'
+import { IoIosCall } from "react-icons/io";
+
 
 const Quick = () => {
     return (
@@ -8,8 +9,8 @@ const Quick = () => {
                 <div className="page_width">
                     <div className="quick">
                         <h2>Quick Service On Emergency</h2>
-                        <img src={CallIcon} alt="" />
-                        <a href="tel:+971 58 67 47 123">+971 58 67 47 123</a>
+                        
+                        <a href="tel:+971 58 67 47 123"><IoIosCall />+971 58 67 47 123</a>
                     </div>
                 </div>
             </section>

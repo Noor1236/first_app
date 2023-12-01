@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../../assets/images/logo/logo.svg'
-import CallIcon from '../../assets/images/icons/phone-removebg-preview.png'
+import { IoIosCall } from "react-icons/io";
 
 const Header = () => {
   return (
@@ -23,7 +23,7 @@ const Header = () => {
                   <a href="#">Service</a>
                 </li>
                 <li>
-                  <a href="tel:+92056746506"><img src={CallIcon} alt="" />+92056746506</a>
+                  <a href="tel:+92056746506"><IoIosCall />+92056746506</a>
                 </li>
               </ul>
             </div>
